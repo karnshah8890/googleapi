@@ -122,7 +122,7 @@ public class MainActivity extends Activity {
 		@Override
 		protected ArrayList<Place> doInBackground(Void... arg0) {
 			PlacesService service = new PlacesService(
-					"AIzaSyAzoIZWMvwoQuXst4FaHeCEpI9wW74eNzg");
+					"Put your project browser API key here");
 			ArrayList<Place> findPlaces = service.findPlaces(loc.getLatitude(), // 28.632808
 					loc.getLongitude(), places); // 77.218276
 
